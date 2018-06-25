@@ -20,6 +20,12 @@ every directory in `grammars/` must have atleast one `[lang-ext].config.json` fi
 
 ## Usage
 
+```bash
+npm i monaco-textmate-languages
+```
+
+> You must install all the peer dependencies yourself
+
 ```javascript
 
 import { LanguageRegistry } from 'monaco-textmate-languages'
