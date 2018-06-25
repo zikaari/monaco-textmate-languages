@@ -1,10 +1,10 @@
-## monaco-textmate + grammars for most languages
+## `monaco-textmate` with grammars for most languages
 
-See `grammars` for list all the languages this package ships with
+See `grammars/` for list of all the languages this package ships with
 
 This package exposes `LanguageRegistry` class which has sweet lookup functions for language grammars.
 
-You can get Grammar/Tokenizer by either by language ID or file extension or even MIME type.
+You can get Grammar/Tokenizer either by language ID or file extension or even MIME type.
 
 Not all grammars have been "registered/activated" for use due to lack of time, so PR's would be appreciated. To "register/activate" a language,
 every directory in `grammars/` must have atleast one `[lang-ext].config.json` file that looks like this:
@@ -16,6 +16,27 @@ every directory in `grammars/` must have atleast one `[lang-ext].config.json` fi
     "extensions": [".ts"],
     "mimeType": ["application/typescript"]
 }
+```
+
+## Usage
+
+```javascript
+
+import { LanguageRegistry } from 'monaco-textmate-languages'
+
+const langRegistry = new LanguageRegistry({
+    basePath: 'node_modules/monaco-textmate-languages',
+    textFetcher: (uri) => (await fetch(uri)).text(),
+    // `jsonFetcher` also works (you must provide either of those)
+    // jsonFetcher: (uri) => (await fetch(uri)).json(),
+})
+
+langRegistry.getLanguageGrammarByExtension('.tsx')
+    .then(grammar => {
+        const tokens = grammar.tokenizeLine(`class App extends Component {}`)
+        // ...
+    })
+
 ```
 
 ## License
