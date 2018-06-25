@@ -1,6 +1,6 @@
 {
     "name": "monaco-textmate-languages",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Front-end for monaco-textmate with almost all languages built-in",
     "scripts": {
         "build": "tsc",
