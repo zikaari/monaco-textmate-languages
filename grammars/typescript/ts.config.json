@@ -1,0 +1,6 @@
+{
+    "id": "typescript",
+    "scopeName": "source.ts",
+    "extensions": [".ts"],
+    "mimeType": ["application/typescript"]
+}

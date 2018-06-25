@@ -1,0 +1,6 @@
+{
+	"id": "css",
+	"scopeName": "source.css",
+	"extensions": [".css"],
+	"mimeType": ["text/css"]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "monaco-textmate-languages",
+    "version": "0.0.0",
+    "description": "Front-end for monaco-textmate with almost all languages built-in",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "bake-manifest": "node scripts/bake_manifest.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NeekSandhu/monaco-textmate-languages.git"
+    },
+    "author": "Neek Sandhu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/NeekSandhu/monaco-textmate-languages/issues"
+    },
+    "homepage": "https://github.com/NeekSandhu/monaco-textmate-languages#readme",
+    "devDependencies": {
+        "fs-extra": "^5.0.0",
+        "glob": "^7.1.2",
+        "typescript": "^2.7.2"
+    },
+    "peerDependencies": {
+        "monaco-textmate": "^3.0.0"
+    }
+}

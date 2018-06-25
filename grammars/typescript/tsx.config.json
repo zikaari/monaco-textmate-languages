@@ -1,0 +1,6 @@
+{
+    "id": "typescriptreact",
+    "scopeName": "source.tsx",
+    "extensions": [".tsx"],
+    "mimeType": ["application/typescript"]
+}

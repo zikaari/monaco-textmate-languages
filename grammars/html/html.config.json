@@ -1,0 +1,6 @@
+{
+	"id": "html",
+	"scopeName": "text.html.basic",
+	"extensions": [".html", ".htm"],
+	"mimeType": ["text/html"]
+}
