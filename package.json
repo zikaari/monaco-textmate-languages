@@ -2,6 +2,8 @@
     "name": "monaco-textmate-languages",
     "version": "1.0.1",
     "description": "Front-end for monaco-textmate with almost all languages built-in",
+    "main": "dist/index.js",
+    "typings": "dist/typings/index.d.ts",
     "scripts": {
         "build": "tsc",
         "watch": "tsc -w",
