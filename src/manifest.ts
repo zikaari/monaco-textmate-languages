@@ -932,6 +932,10 @@ const languages = [
         extensions: [
             ".ts"
         ],
+        aliases: [
+            "TypeScript",
+            "typescript"
+        ],
         mimeType: [
             "application/typescript"
         ]
@@ -941,6 +945,10 @@ const languages = [
         scopeName: "source.tsx",
         extensions: [
             ".tsx"
+        ],
+        aliases: [
+            "TypeScript React",
+            "typescript react"
         ],
         mimeType: [
             "application/typescript"

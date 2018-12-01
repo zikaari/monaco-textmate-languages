@@ -2,5 +2,6 @@
     "id": "typescriptreact",
     "scopeName": "source.tsx",
     "extensions": [".tsx"],
+    "aliases": ["TypeScript React", "typescript react"],
     "mimeType": ["application/typescript"]
 }
