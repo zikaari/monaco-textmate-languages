@@ -36,6 +36,10 @@ export interface ILanguageRegistryConfig {
     textFetcher?: (uri: string) => string | Promise<string>
 }
 
+export {
+    languages
+}
+
 export class LanguageRegistry extends Registry {
     constructor(config: ILanguageRegistryConfig) {
         Object.freeze(config)
