@@ -1,6 +1,23 @@
 {
-	"id": "html",
-	"scopeName": "text.html.basic",
-	"extensions": [".html", ".htm"],
-	"mimeType": ["text/html"]
+  "id": "html",
+  "extensions": [
+    ".html",
+    ".htm",
+    ".shtml",
+    ".xhtml",
+    ".mdoc",
+    ".jsp",
+    ".asp",
+    ".aspx",
+    ".jshtm",
+    ".wpy"
+  ],
+  "aliases": ["HTML", "htm", "html", "xhtml"],
+  "mimeType": [
+    "text/html",
+    "text/x-jshtm",
+    "text/template",
+    "text/ng-template"
+  ],
+  "scopeName": "text.html.basic"
 }
